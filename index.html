@@ -15,57 +15,56 @@
 
   <header>
     <img src="./images/logo.svg" alt="logo">
-    <img class="hamburger-menu" src="./images/icon-menu.svg" alt="icon-menu">
-    <nav>
-      <div class="back">
-        <div class="front">
-          <div class="close-img-container">
-            <img id="close-btn" src="./images/icon-close-menu.svg" alt="close menu">
-          </div>
-          <ul>
-            <li>
-              <button class="submenu-btn">
-                Features
-                <img src="./images/icon-arrow-down.svg" alt="arrow down">
-              </button>
-              
-              <ul class="features-ul">
-                <li>
-                  <img src="./images/icon-todo.svg" alt="to do">
-                  <span>Todo List</span>
-                </li>
-                <li>
-                  <img src="./images/icon-calendar.svg" alt="calendar">
-                  <span>Calendar</span>
-                </li>
-                <li>
-                  <img src="./images/icon-reminders.svg" alt="reminders">
-                  <span>Reminders</span>
-                </li>
-                <li>
-                  <img src="./images/icon-planning.svg" alt="plannig">
-                  <span>Plannig</span>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <button class="submenu-btn">
-                Company
-                <img src="./images/icon-arrow-down.svg" alt="arrow down">
-              </button>
-              <ul class="company-ul">
-                <li>History</li>
-                <li>Our Team</li>
-                <li>Blog</li>
-              </ul>
-            </li>
-            <li>Careers</li>
-            <li>About</li>
-          </ul>
-          <div class="btns-container">
-            <button class="login-btn">Login</button>
-            <button class="register-btn">Register</button>
-          </div>
+    <img id="hamburger-menu" class="hamburger-menu" src="./images/icon-menu.svg" alt="icon-menu">
+    <nav id="navbar">
+      <div class="back"></div>
+      <div class="front">
+        <div class="close-img-container">
+          <img id="close-btn" src="./images/icon-close-menu.svg" alt="close menu">
+        </div>
+        <ul>
+          <li class="features-ul-container">
+            <button id="fatures-btn" class="submenu-btn">
+              Features
+              <img id="fatures-btn-arrow"  src="./images/icon-arrow-down.svg" alt="arrow down">
+            </button>
+            
+            <ul id="features-ul" class="features-ul">
+              <li>
+                <img src="./images/icon-todo.svg" alt="to do">
+                <span>Todo List</span>
+              </li>
+              <li>
+                <img src="./images/icon-calendar.svg" alt="calendar">
+                <span>Calendar</span>
+              </li>
+              <li>
+                <img src="./images/icon-reminders.svg" alt="reminders">
+                <span>Reminders</span>
+              </li>
+              <li>
+                <img src="./images/icon-planning.svg" alt="plannig">
+                <span>Plannig</span>
+              </li>
+            </ul>
+          </li>
+          <li class="company-ul-container">
+            <button id="company-btn" class="submenu-btn">
+              Company
+              <img id="company-btn-arrow" src="./images/icon-arrow-down.svg" alt="arrow down">
+            </button>
+            <ul id="company-ul" class="company-ul">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+        <div class="btns-container">
+          <button class="login-btn">Login</button>
+          <button class="register-btn">Register</button>
         </div>
       </div>
     </nav>
@@ -87,8 +86,8 @@
       </div>
     </section>
     <picture>
-      <source media="(max-width: 639px)" srcset="./images/image-hero-mobile.png"/>
-      <source media="(min-width: 640px)" srcset="./images/image-hero-desktop.png"/>
+      <source media="(max-width: 1023px)" srcset="./images/image-hero-mobile.png"/>
+      <source media="(min-width: 1024px)" srcset="./images/image-hero-desktop.png"/>
       <img class="hero-image" src="./images/image-hero-mobile.png" alt="hero image">
     </picture>
   </main>
@@ -98,5 +97,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Angel Coyasos</a>.
   </footer>
+
+  <script src="./main.js"></script>
+
 </body>
 </html>
