@@ -83,7 +83,7 @@ header {
             margin: 24px 0;
         }
         & .submenu-btn img {
-            transition: all 0.3s ease 0s;
+            transition: transform 0.3s ease;
         }
         & .btns-container {
             position: absolute;
